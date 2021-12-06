@@ -1,0 +1,285 @@
+/*Général*/
+body
+{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+    font-size: 1.5em;
+    color: black;
+
+}
+
+h2
+{
+    font-size: 1.2em;
+    color: black;
+}
+
+h3
+{
+    font-size: 1em;
+    color: black;
+}
+    
+
+
+h4
+{
+    font-size: 0.9em;
+    font-weight: lighter;
+    color: black;
+}
+
+
+h5
+{
+    font-size: 1em;
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    font-weight: bold;
+}
+
+h6
+{
+    color: white;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/*Header*/
+
+    /*logo*/
+    #titre
+    {
+        height: 4em;
+    }    
+
+    #logo
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 1em;
+        height: 2em;
+    }
+
+    /*Barre de recherche*/
+    #searchbar
+    {
+        height: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e9e9e9;
+        border-top: #8181811e solid 3px;
+    }
+
+    #searchbar i
+    {
+        font-size: 0.8em;
+    }
+
+    #search
+    {
+        border: none;
+        padding-left: 10%;
+        background-color: #e9e9e9;
+    }
+
+    ::placeholder
+    {
+        font-size: 1em;
+        color: black;
+        font-weight: bold;
+    }
+
+    /*Presentation*/
+    #presentation
+    {
+        height: 16em;
+        padding-top: 1.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f9f9f9;
+    }
+
+    header h1
+    {
+        padding-left: 2em;
+        padding-right: 2em;
+        text-align: center;
+    }
+
+    header h3
+    {
+        text-align: center;
+        font-weight: lighter;
+        color: gray;
+        margin-top: -0.1rem;
+    }
+
+    .button
+{
+    background: linear-gradient(to bottom right, #FF79DA , #9356DC );
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    width: 60%;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+/*Fonctionnement*/
+
+#function
+{
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+
+#function i
+{
+    font-size: 1.5em;
+    color: #8f8f8f;
+    margin-left: 1.5rem ;
+    margin-right: 2rem;
+}
+
+.number
+{
+    background-color: #9356DC;
+    color: white;
+    border-radius: 100px;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1rem ;
+}
+
+.bubble
+{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 90%;
+    background-color: #f9f9f9;
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 20px;
+    
+}
+
+/*Restaurants*/
+
+.restaurants
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #e9e9e9;
+    padding-left: 1em;
+    height: 60em;
+}
+
+    /*Cartes*/
+    .card
+    {
+        width: 90%;
+        height: 12em;
+        border: white solid 1px;
+        border-radius: 20px;
+        background-color: white;
+        
+    }
+
+    .card-image
+    {
+        height: 70%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card-image img
+    {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card-body
+    {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1em;
+    }
+
+    .card-title
+    {
+        margin-top: -1em;
+        padding-top: 0.5em;
+    }
+
+    .card-excerpt
+    {
+        margin-top: -2.2em;
+    }
+
+    .heart
+    {
+        position: absolute;
+        right: 3em;
+        font-size: 1.5em;
+    }
+
+/*footer*/
+
+footer
+{
+    background-color: #494949;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-around;*/
+    height: 12em;
+    padding-left: 1em;
+    margin-top: -1.7em;
+}
+
+footer h5
+{
+    padding-top: 1em;
+}
+
+footer h6
+{
+    margin-top: -1em;
+}
+
+footer i
+{
+    color: white;
+    margin-top: -2.5em;
+}
+
+.propose
+{
+    display: flex;
+    align-items: center;
+}
