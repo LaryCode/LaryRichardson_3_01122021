@@ -247,6 +247,9 @@ a
         position: absolute;
         right: 3em;
         font-size: 1.5em;
+        padding-top: 0.5em;
+        color: black;
+        font-weight: lighter;
     }
 
 /*footer*/
@@ -275,7 +278,9 @@ footer h6
 footer i
 {
     color: white;
-    margin-top: -2.5em;
+    margin-top: -3em;
+    margin-right: 0.5em;
+    font-size: 0.9em;
 }
 
 .propose
