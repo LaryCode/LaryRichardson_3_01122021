@@ -128,17 +128,17 @@ a
     }
 
     .button
-{
-    background: linear-gradient(to bottom right, #FF79DA , #9356DC );
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1em;
-    width: 60%;
-    height: 3rem;
-    border-radius: 50px;
-}
+    {
+        background: linear-gradient(to bottom right, #FF79DA , #9356DC );
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        width: 60%;
+        height: 3rem;
+        border-radius: 50px;
+    }
 
 /*Fonctionnement*/
 
