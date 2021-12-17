@@ -1,0 +1,56 @@
+/*Général*/
+    body
+    {
+        width: 100%;
+    }
+
+    h1
+    {
+        font-size: 2.5em;
+    }
+
+    h2
+    {
+        font-size: 2.2em;
+    }
+
+    h3
+    {
+        font-size: 2em;
+    }
+
+    h4
+    {
+        font-size: 1.9em;
+    }
+    
+    h5
+    {
+        font-size: 2em;
+    }
+
+    h6
+    {
+        font-size: 1.8em;
+    }
+
+/*header*/
+
+    #titre
+    {
+        height: 6em;
+        
+       
+    }   
+
+    #logo
+    {
+        height: 3em;
+        padding-top: 1.5em;
+        padding-left: 30%;
+    }
+
+    header i
+    {
+        font-size: 1.5em;
+    }
