@@ -3,6 +3,8 @@ body
 {
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h1
@@ -58,6 +60,7 @@ p
 a
 {
     text-decoration: none;
+    cursor: pointer;
 }
 
 /*header*/
@@ -66,17 +69,17 @@ a
     {
         height: 4em;
         display: flex;
-        justify-content: center;
     }    
 
     #logo
     {
-        width: 100%;
+       
         display: flex;
         padding-top: 1em;
         height: 2em;
-        padding-left: 4em;
+        padding-left: 30%;
     }
+
 
     header i
     {
@@ -108,105 +111,153 @@ a
     {
         background-color: #f9f9f9;
         width: 100%;
-        position: absolute;
-        top: 17em;
+        margin-top: -3em;
         border-top-right-radius: 50px;
         border-top-left-radius: 50px;
+        height: 85em;
     }
 
     .name
     {
         display: flex;
         align-items: center;
+        justify-content: space-around;
         padding-left: 1em;
         padding-top: 1em;
     }
 
     .name i
     {
-        margin-left: 4.5em;
+        
         font-size: 1.2em;
     }
 
     /*choix menu*/
 
-    #entree
+        /*Entrées*/
+
+        .entree
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 22em;
+            width: 100%;
+        }
+
+        .entree h2
+        {
+            margin-left: -75%;
+            border-bottom: #99E2D0 solid 3px;
+            padding-bottom: 0.3em;
+            width: 10%;
+            
+        }
+
+        .choice
+        {
+            width: 90%;
+            height: 4em;
+            background-color: white; 
+            border-radius: 20px;       
+        }
+
+        .choice p
+        {
+            position: relative;
+            left: 85%;
+            bottom: 80%;
+        }
+
+        .choice h3
+        {
+            padding-left: 5%;
+            position: relative;
+            top: -10%;
+        }
+
+        .choice h4
+        {
+            padding-left: 5%;
+            position: relative;
+            top: -25%;
+            
+        }
+
+        /*Plats*/
+
+        .meal
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 22em;
+            margin-top: 1em;
+            width: 100%;
+        }
+
+        .meal h2
+        {
+            margin-left: -75%;
+            border-bottom: #99E2D0 solid 3px;
+            padding-bottom: 0.3em;
+            width: 10%;
+            
+        }
+
+        /*Desserts*/
+
+        .dessert
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 22em;
+            margin-top: 1em;
+            width: 100%;
+        }
+
+        .dessert h2
+        {
+            margin-left: -75%;
+            border-bottom: #99E2D0 solid 3px;
+            padding-bottom: 0.3em;
+            width: 10%;
+            
+        }
+
+
+/*Button*/
+
+.button
     {
+        background: linear-gradient(to bottom right, #FF79DA , #9356DC );
+        color: white;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        height: 22em;
+        font-size: 1em;
+        width: 50%;
+        height: 3rem;
+        border-radius: 50px;
+        margin-top: 3.5em;
+        margin-left: 25%;
+
     }
-
-    .choice
-    {
-        width: 90%;
-        height: 4em;
-        background-color: white; 
-        border-radius: 20px;
-        position: relative;   
-    }
-
-    .choice p
-    {
-        position: relative;
-        left: 85%;
-        bottom: 80%;
-    }
-
-    .choice h3
-    {
-        padding-left: 5%;
-        position: relative;
-        top: -10%;
-    }
-
-    .choice h4
-    {
-        padding-left: 5%;
-        position: relative;
-        top: -25%;
-        
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*footer*/
 
 footer
 {
     background-color: #494949;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: space-around;*/
-    height: 12em;
+    height: 15em;
     padding-left: 1em;
-    margin-top: -1.7em;  
+    
+    
+
 }
 
 footer h5

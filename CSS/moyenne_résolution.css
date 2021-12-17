@@ -1,0 +1,188 @@
+/*Général*/
+h1
+{
+    font-size: 2.5em;
+}
+
+h2
+{
+    font-size: 2.2em;
+}
+
+h3
+{
+    font-size: 2em;
+}
+
+h4
+{
+    font-size: 1.9em;
+}
+
+h5
+{
+    font-size: 2em;
+}
+
+h6
+{
+    font-size: 1.8em;
+}
+
+p
+{
+    font-size: 1.5em;
+}
+
+/*Header*/
+
+    #titre
+    {
+        height: 6em;
+    }
+
+    #logo
+    {
+        height: 4em;
+    }
+
+/*Barre de recherche*/
+#searchbar
+{
+    height: 4em;
+}
+
+#searchbar i
+{
+    font-size: 1.8em;
+    padding-bottom: 0.2em;
+    margin-left: 3em;
+}
+
+#search
+{
+    padding-top: 0.5em;
+    height: 3em;
+    width: 25em;
+}
+
+::placeholder
+{
+    font-size: 2em;
+    
+}
+
+/*Presentation*/
+#presentation
+{
+    height: 23em;
+}
+
+.button
+{
+    font-size: 1.5em;
+}
+
+/*Fonctionnenment*/
+
+main article h2
+{
+    margin-top: 2em;
+    margin-left: 1.5em;
+}
+
+#function
+{
+    height: 40em;
+}
+
+#function i
+{
+    font-size: 2em;
+    padding-left: 1em;
+}
+
+#function h3
+{
+    padding-left: 1em;
+}
+
+.number
+{
+    height: 2em;
+    width: 2em;
+    margin-left: -1em;
+}
+
+.bubble
+{
+    height: 8em;
+    border-radius: 40px;
+}
+
+/*Restaurants*/
+
+.restaurants
+{
+    height: 130em;   
+}
+
+.restaurants h2
+{
+    margin-top: -1em;  
+}
+
+
+    /*Cartes*/
+    .card
+    {
+        height: 25em;
+        margin-left: 5%;
+        margin-top: -10em;
+    }
+
+    .card-image img
+    {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card-body
+    {
+        margin-top: -3%;
+        
+    }
+
+    .card-title
+    {
+        margin-top: -1.5em;
+        padding-top: 2em;
+        
+    }
+
+    .card-excerpt
+    {
+        margin-top: -4em;
+    }
+
+    .heart
+    {
+        right: 2em;
+        font-size: 3em;
+        padding-top:1em;
+    }
+
+/*footer*/
+
+footer
+{
+    height: 30em;
+    margin-top: -3.5em;
+}
+
+footer i
+{
+    font-size: 1.8em;
+}

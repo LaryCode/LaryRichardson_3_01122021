@@ -52,6 +52,7 @@ h6
 a
 {
     text-decoration: none;
+    cursor: pointer;
 }
 
 /*Header*/
@@ -128,19 +129,32 @@ a
     }
 
     .button
-{
-    background: linear-gradient(to bottom right, #FF79DA , #9356DC );
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1em;
-    width: 60%;
-    height: 3rem;
-    border-radius: 50px;
-}
+    {
+        background: linear-gradient(to bottom right, #FF79DA , #9356DC );
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        width: 60%;
+        height: 3rem;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: px 5px 20px #999;
+    }
+
+    .button:hover
+    {
+        filter: brightness(1.25);
+        box-shadow: 5px 10px 20px #494949;
+    }
 
 /*Fonctionnement*/
+
+main h2
+{
+    margin-left: 1em;
+}
 
 #function
 {
@@ -183,7 +197,13 @@ a
     background-color: #f9f9f9;
     box-shadow: 0px 5px 20px #999;
     border-radius: 20px;
-    
+    cursor: pointer;
+}
+
+.bubble:hover
+{
+    filter: brightness(1.25);
+    box-shadow: 5px 10px 20px #494949;
 }
 
 /*Restaurants*/
@@ -250,8 +270,32 @@ a
         padding-top: 0.5em;
         color: black;
         font-weight: lighter;
+        display: flex;
     }
 
+    .empty
+    {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .heart :hover
+    {
+        animation: normal;
+    }
+        .full
+        {
+            color: transparent;
+            z-index: 2;
+            animation: lolli 1s ;
+        }
+
+        @keyframes lolli
+        {
+        from{color:transparent}
+        to{color: linear-gradient(to bottom right, #FF79DA , #9356DC )}
+        }
+    
 /*footer*/
 
 footer
