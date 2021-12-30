@@ -16,12 +16,12 @@
 
     h3
     {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     h4
     {
-        font-size: 1.9em;
+        font-size: 1.6em;
     }
     
     h5
@@ -39,8 +39,6 @@
     #titre
     {
         height: 6em;
-        
-       
     }   
 
     #logo
@@ -52,7 +50,9 @@
 
     header i
     {
-        font-size: 1.5em;
+        font-size: 2em;
+        padding-left: 2em;
+        padding-top: 1em;
     }
 
     .card
@@ -61,15 +61,89 @@
 
     }
 
-    .card-image
-    {
-        height: 100%;
-    }
-
 /*Main*/
 
     main
     {
-        margin-top: 1em;
-        height: 130em;
+        margin-top: 3em;
+        height: 160em;
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+    }
+
+    .name i
+    {
+        font-size: 2.2em;
+    }
+
+    /*choix menu*/
+
+        /*Entrées*/
+
+        .entree
+        {
+            height: 40em;
+        }
+
+        .entree h2
+        {
+            border-bottom: #99E2D0 solid 5px;
+        }
+
+        .choice
+        {
+            height: 8em;
+        }
+
+        .choice p
+        {
+            font-size: 1.8em;
+            margin-top:5%;
+        }
+
+
+        /*Plats*/
+
+        .meal
+        {
+            height: 40em;
+        }
+
+        .meal h2
+        {
+            border-bottom: #99E2D0 solid 5px;
+        }
+
+        /*Desserts*/
+
+        .dessert
+        {
+            height: 40em;
+        }
+
+        .dessert h2
+        {
+            border-bottom: #99E2D0 solid 5px;
+        }
+
+    /*Bouton*/    
+        .button
+        {
+            height: 4em;
+            font-size: 2em;
+            margin-top: 4em;
+            border-radius: 150px;
+        }
+
+    /*Footer*/
+
+    footer
+    {
+        height: 35em;
+        padding-left: 10%;
+    }
+
+    footer i
+    {
+        font-size: 2em;
     }
