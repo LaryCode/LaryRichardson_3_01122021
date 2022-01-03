@@ -273,27 +273,27 @@ main h2
         display: flex;
     }
 
+    .heart :hover
+    {
+        animation: lolli 1s ;
+    }
+
     .empty
     {
         z-index: 1;
         position: absolute;
     }
 
-    .heart :hover
-    {
-        animation: normal;
-    }
         .full
         {
             color: transparent;
             z-index: 2;
-            animation: lolli 1s ;
         }
 
         @keyframes lolli
         {
         from{color:transparent}
-        to{color: linear-gradient(to bottom right, #FF79DA , #9356DC )}
+        to{color: red;}
         }
     
 /*footer*/
