@@ -1,0 +1,45 @@
+/*Loading spinner*/
+
+    .loader
+    {
+    border-top: 10px solid #9356DC;
+    border-bottom: 10px solid #FF79DA ;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation:  spin 3s linear infinite;
+    animation-duration: 3s;
+    -webkit-animation: spin 3s linear infinite;
+    -o-animation: spin 3s linear infinite;
+    
+    margin:auto;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    }
+
+    @-webkit-keyframes spin
+    {
+        0%{transform:rotate(0deg)}
+
+        100%{transform: rotate(360deg)}
+    }
+
+    @-o-keyframes spin
+    {
+        0%{transform:rotate(0deg)}
+
+        100%{transform: rotate(360deg)}
+    }
+
+    @keyframes spin
+    {
+    0%{transform: rotate(0deg)}
+    
+    100%{transform: rotate(360deg)}
+    }
+
+    
+

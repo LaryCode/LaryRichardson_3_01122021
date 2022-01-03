@@ -1,0 +1,88 @@
+/*Général*/
+body
+{
+    width: 100%;
+}
+
+/*Header*/
+    
+    /*Logo*/
+    #titre
+    {
+        height: 5em;
+    }
+
+    #logo
+    {
+      height: 2em;
+      padding-top: 1.5em;
+    }
+
+    /*Restaurants*/
+
+    .restaurants
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e9e9e9;
+    padding-left: 1em;
+    height: 100em;
+}
+
+.restaurants h2
+{
+    width: 100%;
+}
+
+    /*Cartes*/
+    .card
+    {
+        width: 40%;
+        height: 25em;
+        border: white solid 1px;
+        border-radius: 20px;
+        background-color: white;
+        
+    }
+
+    .card-image
+    {
+        height: 70%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card-image img
+    {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card-body
+    {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1em;
+    }
+
+    .card-title
+    {
+        margin-top: -1em;
+        padding-top: 0.5em;
+    }
+
+    .card-excerpt
+    {
+        margin-top: -2.2em;
+    }
+
+    .heart
+    {
+        font-size: 1.5em;
+        padding-top: 0.5em;
+        color: black;
+        font-weight: lighter;
+        display: flex;
+    }
