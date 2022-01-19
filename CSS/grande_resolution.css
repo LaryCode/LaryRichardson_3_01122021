@@ -4,6 +4,39 @@ body
     width: 100%;
 }
 
+h1
+{
+	font-size: 2.5em;
+}
+
+h2
+{
+	font-size: 2.2em;
+}
+
+h3
+{
+    font-size: 1.8em;
+}
+    
+
+
+h4
+{
+    font-size: 1.9em;
+}
+
+
+h5
+{
+    font-size: 2em;
+}
+
+h6
+{
+    font-size: 1.8em; 
+}
+
 /*Header*/
     
     /*Logo*/
@@ -18,72 +51,139 @@ body
       padding-top: 1.5em;
     }
 
+  /*Barre de recherche*/
+    #searchbar
+    {
+        height: 4em;
+        display: flex;     
+    }
+
+    #searchbar i
+    {
+        font-size: 1.5em;
+    }
+
+    #search
+    {
+		height: 3em;
+		width: 20em;
+		padding-top: 0.8em
+    }
+
+    ::placeholder
+    {
+        font-size: 1.8em;
+	
+    }
+
+   /*Presentation*/
+    #presentation
+    {
+        height: 22em;
+        padding-top: 1em;
+    }
+
+
+    .button
+    {
+       
+        font-size: 2em;
+        width: 60%;
+        height: 6rem;
+     
+    }
+
+
+/*Fonctionnement*/
+
+	#function
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		height: 8em
+	}
+
+	.bubble
+	{
+		width: 30%
+	}
+
     /*Restaurants*/
 
     .restaurants
-{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #e9e9e9;
-    padding-left: 1em;
-    height: 100em;
-}
+	{
 
-.restaurants h2
-{
-    width: 100%;
-}
+		display: flex;
+		justify-content: space-around;
+		background-color: #e9e9e9;
+		padding-left: 1em;
+		height: 65em;
+		padding-bottom: 5em;
+	}
+
+	.wrapper
+	{
+		display:grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap:5em;
+		column-gap: 2em;
+		padding-left: 2%;
+	}
+
+
+	.restaurants h2
+	{
+		width: 100%;
+		height: 150em;
+	}
 
     /*Cartes*/
     .card
     {
-        width: 40%;
         height: 25em;
-        border: white solid 1px;
-        border-radius: 20px;
-        background-color: white;
-        
     }
 
-    .card-image
-    {
-        height: 70%;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-    .card-image img
-    {
-        width: 100%;
-        height: 100%;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-    .card-body
-    {
-        display: flex;
-        flex-direction: column;
-        padding-left: 1em;
-    }
-
+ 
     .card-title
     {
-        margin-top: -1em;
-        padding-top: 0.5em;
+        margin-top: -1.5em;
+        padding-top: 1em;
     }
 
     .card-excerpt
     {
-        margin-top: -2.2em;
+        margin-top: -3.7em;
     }
+
+	.thumbnail
+	{
+		height: 2.5em;
+		border-radius: 10%;
+	}
+	
+	.thumbnail p
+	{
+		font-size: 1.5em;
+	}
 
     .heart
     {
-        font-size: 1.5em;
-        padding-top: 0.5em;
-        margin: -75%;
-        color: black;
-        font-weight: lighter;
-        display: flex;
+        font-size: 2em;
+        padding-top: 1.2em;
     }
+
+/*footer*/
+
+	footer
+	{
+		height: 30em;
+		padding-left: 3em;
+		margin-top: -3.5em;
+	}
+
+
+	footer i
+	{
+		font-size: 1.9em;
+	}
