@@ -1,0 +1,175 @@
+/*Général*/
+
+h1
+{
+    font-size: 2.5em;   
+}
+
+h2
+{
+    font-size: 2.2em;
+}
+
+h3
+{
+    font-size: 2em;
+}
+    
+
+
+h4
+{
+    font-size: 1.9em;
+}
+
+
+h5
+{
+    font-size: 2em;
+}
+
+h6
+{
+   font-size: 1.8em;
+}
+
+/*header*/
+
+    #titre
+    {
+        height: 8em;
+		justify-content: space-between
+    }    
+
+    #logo
+    {
+        padding-top: 2em;
+        height: 4em;
+		margin-right: 40%
+    }
+
+
+    header i
+    {
+        padding-top: 1em;
+        font-size: 2.5em;
+    }
+
+    .card
+    {
+        width: 100%;
+        height: 50em;
+    }
+
+/*main*/
+
+    main
+    {
+        margin-top: -10em;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        height: 160em;
+    }
+
+    .name
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 1em;
+        padding-top: 1em;
+    }
+
+    .name i
+    {
+        
+        font-size: 2.5em;
+    }
+   
+   /*choix menu*/
+
+        /*Entrées*/
+
+        .entree
+        {
+            height: 40em; 
+        }
+
+		.plus
+		{
+			height: 50em
+		}
+
+        .entree h2
+        {
+            border-bottom: #99E2D0 solid 5px;
+        }
+		
+        .choice
+        {
+            height: 8em;
+        }
+
+
+        .choice p
+        {
+			font-size: 1.8em;
+            top:35%;
+           
+        }
+
+		 /*Plats*/
+
+    	.meal
+        {
+            height: 40em;
+            margin-top: 2em;
+        }
+
+        .meal h2
+        {
+            border-bottom: #99E2D0 solid 5px;  
+        }
+
+        /*Desserts*/
+
+        .dessert
+        {
+            height: 40em;
+            margin-top: 2em;
+        }
+
+        .dessert h2
+        {
+            border-bottom: #99E2D0 solid 5px;
+		} 
+
+
+		/*Button*/
+
+		.button
+		{
+			font-size: 2em;
+			width: 50%;
+			height: 6rem;
+			border-radius: 50px;
+		}
+
+/*footer*/
+
+footer
+{
+    height: 40em;
+    padding-left: 5em;
+}
+
+footer h5
+{
+    padding-top: 0.5em;
+}
+
+footer i
+{
+    font-size: 1.9em;
+}
+

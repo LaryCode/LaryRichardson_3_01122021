@@ -85,6 +85,11 @@
             height: 40em;
         }
 
+		.plus
+		{
+			height: 45em
+		}
+
         .entree h2
         {
             border-bottom: #99E2D0 solid 5px;
