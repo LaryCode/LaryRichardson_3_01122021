@@ -65,10 +65,7 @@
 
     main
     {
-        margin-top: 3em;
-        height: 160em;
-        border-top-left-radius: 150px;
-        border-top-right-radius: 150px;
+        height: 160em; 
     }
 
     .name i
@@ -105,6 +102,12 @@
             font-size: 1.8em;
             margin-top:5%;
         }
+
+        .tcheck i
+		{
+		  color:white;
+          font-size: 1.5em;
+		}
 
 
         /*Plats*/

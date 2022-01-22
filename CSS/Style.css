@@ -299,34 +299,8 @@ main h2
         position: absolute;
         right: 1em;
         font-size: 1.5em;
-        padding-top: 0.5em;
-        color: black;
-        font-weight: lighter;
-        display: flex;
     }
 
-    .heart :hover
-    {
-        animation: lolli 1s ;
-    }
-
-    .empty
-    {
-        z-index: 1;
-        position: absolute;
-    }
-
-        .full
-        {
-            color: transparent;
-            z-index: 2;
-        }
-
-        @keyframes lolli
-        {
-        from{color:transparent}
-        to{color: red;}
-        }
     
 /*footer*/
 

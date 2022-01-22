@@ -118,6 +118,12 @@ h6
            
         }
 
+        .tcheck i
+		{
+		  color:white;
+          font-size: 2em;
+		}
+
 		 /*Plats*/
 
     	.meal
