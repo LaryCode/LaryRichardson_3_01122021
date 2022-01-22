@@ -77,14 +77,14 @@ a
         display: flex;
         padding-top: 1em;
         height: 2em;
-        padding-left: 20%;
+        padding-left: 30%;
     }
 
 
     header i
     {
         padding-top: 1.5em;
-        padding-left: 1em;
+        padding-left: 0.5102222em;
         color: black;
     }
 
@@ -121,17 +121,16 @@ a
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-left: 1em;
-        padding-top: 1em;
+        padding-top: 0.5em;
     }
 
     .name i
     {
         
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
-    /*choix menu*/
+   /*choix menu*/
 
         /*Entrées*/
 
@@ -159,27 +158,37 @@ a
 		
         .choice
         {
-            width: 90%;
+            width: 80%;
             height: 4em;
             background-color: white;
             border-radius: 20px; 
             position:relative;
             overflow:hidden;
+			animation: appear 2s;
+			animation-fill-mode: forwards;
         }
 
-		.choice:hover .choice p
+		.choice :hover .tcheck
+		{
+			animation: slide 3s;
+			animation-fill-mode: forwards;
+		}
+
+		.choice :hover p
 		{
 			animation: slidein 3s;
-            animation-fill-mode:forwards;
+			animation-fill-mode: forwards;
 		}
+
+		.choice :hover i
+  		{animation: spin 3s ;}
 
         .choice p
         {
             position: absolute;
             margin-left: 90%;
             top:30%;
-            /*animation: slidein 3s;
-            animation-fill-mode:forwards;*/
+            
         }
 
         .choice h3
@@ -194,27 +203,6 @@ a
             position:absolute;
             margin-left: 5%;
             top: 25%;   
-        }
-        
-        .tcheck
-        {
-          height:100%;
-          background-color:#99e2d0;
-          width:10%;
-          margin-left:100%;
-          display:flex;
-          justify-content:center;
-          align-items:center;
-          border-top-right-radius: 20px;
-          border-bottom-right-radius: 20px;
-		  /*animation: slide 3s;
-          animation-fill-mode:forwards;*/
-        }
-        
-        .tcheck i
-        {
-          color:white;
-          animation: spin 3s ;
         }
         
         @keyframes slide
@@ -237,6 +225,24 @@ a
         
         @keyframes spin
         {to {transform: rotate(360deg);}}
+
+		.tcheck
+		{
+		  height:100%;
+		  background-color:#99e2d0;
+		  width:10%;
+		  margin-left:100%;
+		  display:flex;
+		  justify-content:center;
+		  align-items:center;
+		  border-top-right-radius: 20px;
+		  border-bottom-right-radius: 20px;
+		}
+
+		.tcheck i
+		{
+		  color:white;
+		}
 
         /*Plats*/
 

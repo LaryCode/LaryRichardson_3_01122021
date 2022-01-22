@@ -167,10 +167,10 @@ h6
 		font-size: 1.5em;
 	}
 
-    .heart
+    .card i
     {
         font-size: 2em;
-        padding-top: 1.2em;
+        padding-top: 0.5em;
     }
 
 /*footer*/
