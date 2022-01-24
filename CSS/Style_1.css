@@ -305,6 +305,12 @@ a
 
     }
 
+	.button:hover
+    {
+        filter: brightness(1.25);
+        box-shadow: 5px 10px 20px #494949;
+    }
+
 /*footer*/
 
 footer
