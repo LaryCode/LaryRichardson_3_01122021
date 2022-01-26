@@ -35,8 +35,6 @@ body {
       z-index : 2;
       animation:  spin 1s linear infinite;
       animation-duration: 3s;
-      -webkit-animation: spin 1s linear infinite;
-      -o-animation: spin 1s linear infinite;
       margin: auto;
       position: absolute;
       top:0;
