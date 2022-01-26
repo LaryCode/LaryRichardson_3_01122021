@@ -56,32 +56,51 @@ body {
    .heart
 	{
         padding-top: 0.5em;
-        color: black;
-        opacity: 0.5;
         display: flex;
     }
 
-    .heart :hover
-    {
-        animation: lolli 1s ;
-    }
+    
 
     .empty
     {
-        z-index: 1;
+      
         position: absolute;
-    }
+		color: black;
+		opacity: 1;
+	}
+
+.empty:hover
+{
+	animation: below 1s;
+}
+
+
 
         .full
-        {
-            color: transparent;
-            z-index: 2;
+        {	
+			z-index: 1;
+            color:transparent;
+            background-image: linear-gradient(#FF79DA , #9356DC );
+			background-clip:text;
+			-webkit-background-clip:text;
+			opacity: 0
         }
 
-        @keyframes lolli
+.full:hover
+{
+	animation: above 1s;
+}
+
+        @keyframes above
         {
-        from{color:transparent}
-        to{color: red;}
+        from{opacity: 0}
+        to{opacity: 1}
+        }
+
+		@keyframes below
+		{
+        from{opacity: 1}
+        to{opacity: 0}
         }
 
 
