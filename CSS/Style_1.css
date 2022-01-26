@@ -170,18 +170,18 @@ a
 
 		.choice :hover .tcheck
 		{
-			animation: slide 3s;
+			animation: slide 1s;
 			animation-fill-mode: forwards;
 		}
 
 		.choice :hover p
 		{
-			animation: slidein 3s;
+			animation: slidein 1s;
 			animation-fill-mode: forwards;
 		}
 
 		.choice :hover i
-  		{animation: spin 3s ;}
+  		{animation: spin 1s ;}
 
         .choice p
         {
