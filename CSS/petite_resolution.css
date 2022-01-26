@@ -1,0 +1,356 @@
+/*Général*/
+body
+{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1
+{
+    font-size: 1.2em;
+    color: black;
+    font-family: 'Shrikhand', cursive;
+
+}
+
+h2
+{
+    font-size: 1em;
+    color: black;
+}
+
+h3
+{
+    font-size: 0.9em;
+    color: black;
+}
+    
+
+
+h4
+{
+    font-size: 0.8em;
+    font-weight: lighter;
+    color: black;
+}
+
+
+h5
+{
+    font-size: 0.9em;
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    font-weight: bold;
+}
+
+h6
+{
+    color: white;
+    font-size: 0.7em;
+    font-weight: lighter;
+}
+
+p
+{
+    font-weight: bold;
+	font-size: 0.9em;
+}
+
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*header*/
+
+    #titre
+    {
+        height: 4em;
+        display: flex;
+    }    
+
+    #logo
+    {
+       
+        display: flex;
+        padding-top: 1em;
+        height: 2em;
+        padding-left: 15%;
+    }
+
+
+    header i
+    {
+        padding-top: 1.5em;
+        padding-left: 0.5em;
+        color: black;
+    }
+
+    .card
+    {
+        width: 100%;
+        height: 16em;
+    }
+
+    .card-image
+    {
+        width: 100%;
+        height: 16em;
+    }
+
+    .card-image img
+    {
+        width: 100%;
+    }
+
+/*main*/
+
+    main
+    {
+        background-color: #f9f9f9;
+        margin-top: -3em;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        height: 85em;
+    }
+
+    .name
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 0.5em;
+    }
+
+    .name i
+    {
+        
+        font-size: 1.5em;
+    }
+
+   /*choix menu*/
+
+        /*Entrées*/
+
+        .entree
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 20em; 
+        }
+
+		.plus
+		{
+			height: 25em
+		}
+
+        .entree h2
+        {
+            margin-right: 75%;
+            border-bottom: #99E2D0 solid 3px;
+            padding-bottom: 0.3em;
+            width: 10%;
+        }
+		
+    .choice
+        {
+            width: 250px;
+            height: 4em;
+            background-color: white;
+            border-radius: 20px;
+            overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			display: inline-block;
+			animation: appear 2s;
+			animation-fill-mode: forwards;
+        }
+
+		.left
+{
+	width: 200px
+}
+
+		.choice :hover .tcheck
+		{
+			animation: slide 1s;
+			animation-fill-mode: forwards;
+		}
+
+		.choice :hover p
+		{
+			animation: slidein 1s;
+			animation-fill-mode: forwards;
+			
+		}
+
+		.choice :hover i
+  		{animation: spin 1s ;}
+
+		.choice :hover h3
+		{
+			width: 60%;
+		}
+
+		.choice:hover h4
+		{
+			width:60%;
+		}
+
+        .choice p
+        {
+            position: absolute;
+            margin-left: 85%;
+            top:30%;
+		}
+
+        .choice h3
+        {
+             overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+            
+			width: 75%;
+			position: absolute;
+            margin-left: 5%;
+            top: -7%
+        }
+
+        .choice h4
+        {
+            overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			width: 75%;
+			position:absolute;
+            margin-left: 5%;
+            top: 30%; 
+        }
+        
+    
+
+		.tcheck
+		{
+		  height:100%;
+		  background-color:#99e2d0;
+		  width:30px;
+		  margin-left:110%;
+		  display:flex;
+		  justify-content:center;
+		  align-items:center;
+		  border-top-right-radius: 20px;
+		  border-bottom-right-radius: 20px;
+}
+			
+
+		.tcheck i
+		{
+		  color:white;
+			font-size: 0.8em;
+		}
+
+        /*Plats*/
+
+        .meal
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 20em;
+            margin-top: 1em;
+        }
+
+        .meal h2
+        {
+            margin-right: 75%;
+            border-bottom: #99E2D0 solid 3px;
+            padding-bottom: 0.3em;
+            width: 10%;
+            
+        }
+
+        /*Desserts*/
+
+        .dessert
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 20em;
+            margin-top: 1em;
+        }
+
+        .dessert h2
+        {
+            margin-right: 75%;
+            border-bottom: #99E2D0 solid 3px;
+            padding-bottom: 0.3em;
+            width: 10%;    
+        }
+
+
+/*Button*/
+
+.button
+    {
+        background: linear-gradient(to bottom right, #FF79DA , #9356DC );
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        width: 50%;
+        height: 3rem;
+        border-radius: 50px;
+        margin-top: 2.5em;
+		margin-bottom: 2.5em;
+        margin-left: 25%;
+
+    }
+
+	.button:hover
+    {
+        filter: brightness(1.25);
+        box-shadow: 5px 10px 20px #494949;
+    }
+
+/*footer*/
+
+footer
+{
+    background-color: #494949;
+    height: 15em;
+    padding-left: 2em;
+}
+
+footer h5
+{
+    padding-top: 1em;
+}
+
+footer h6
+{
+    margin-top: -1em;
+}
+
+footer i
+{
+    color: white;
+    margin-top: -3em;
+    margin-right: 0.5em;
+    font-size: 0.9em;
+}
+
+.propose
+{
+    display: flex;
+    align-items: center;
+}
+
