@@ -166,6 +166,9 @@ a
             overflow:hidden;
 			animation: appear 2s;
 			animation-fill-mode: forwards;
+			overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
         }
 
 		.choice :hover .tcheck
@@ -178,6 +181,16 @@ a
 		{
 			animation: slidein 1s;
 			animation-fill-mode: forwards;
+		}
+
+		.choice :hover h3
+		{
+			width: 60%;
+		}
+
+		.choice:hover h4
+		{
+			width:60%;
 		}
 
 		.choice :hover i
@@ -196,13 +209,19 @@ a
             position: absolute;
             margin-left: 5%;
             top: -10%;
+			overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
         }
 
         .choice h4
         {
             position:absolute;
             margin-left: 5%;
-            top: 25%;   
+            top: 25%;  
+			overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
         }
         
         @keyframes slide
